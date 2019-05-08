@@ -26,6 +26,7 @@ public class Main {
          * 与Java语言自带的生成实例的方法相比要具有具有更好的通用
          * 性，而且将框架从类名的束缚中解放出来了
          */
+
         Product strongMessage = manager.create("strong message");
         strongMessage.use("hello world");
 
